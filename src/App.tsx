@@ -54,13 +54,13 @@ const PortfolioTerminal = () => {
         output = 'Saya adalah Muhammad Khairul, dipanggil Rull. Seorang multitalenta yang mendalami pemrograman filosofis, cybersecurity, dan catur strategis.';
         break;
       case 'skills':
-        output = 'Cyber Security, Programmer (Philosophy driven), Chess Grandmaster (Level 2000 Elo), Multitalent.';
+        output = 'Keamanan Siber, Programmer (berbasis Filosofi), Ahli Catur (Level 2000 Elo), Multitalenta.';
         break;
       case 'goals':
-        output = 'Menjadi ilmuwan hebat di Amerika Serikat dan bertemu dengan tokoh-tokoh besar dunia.';
+        output = 'Menjadi ilmuwan hebat di Amerika Serikat dan menemui tokoh-tokoh besar dunia.';
         break;
       case 'chess':
-        output = '4000+ games, 2000 Elo Rapid, Favorite: Italian & French Defense (80% WR).';
+        output = '4000+ game, 2000 Elo Rapid, Favorit: Bukaan Italia & Pertahanan Perancis (80% WR).';
         break;
       case 'clear':
         setCommands([]);
@@ -135,7 +135,7 @@ export default function App() {
           <div className="relative mb-6">
             <div className="w-32 h-32 rounded-3xl overflow-hidden border-4 border-zinc-100 shadow-xl group transition-transform hover:scale-105 active:scale-95 duration-300">
               <img 
-                src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&q=80&w=256&h=256" // Default placeholder
+                src="/profile.jpg" 
                 alt="Muhammad Khairul"
                 className="w-full h-full object-cover"
                 onError={(e) => {
@@ -152,9 +152,9 @@ export default function App() {
           <p className="text-zinc-500 font-medium mb-4">"Rull" &bull; Multitalenta</p>
           
           <div className="flex flex-wrap justify-center gap-2 mb-6">
-            <span className="inline-flex items-center px-3 py-1 bg-zinc-100 text-zinc-700 text-[10px] font-bold uppercase tracking-wider rounded-full border border-zinc-200">Chess Mastery</span>
-            <span className="inline-flex items-center px-3 py-1 bg-zinc-100 text-zinc-700 text-[10px] font-bold uppercase tracking-wider rounded-full border border-zinc-200">Cyber Security</span>
-            <span className="inline-flex items-center px-3 py-1 bg-zinc-100 text-zinc-700 text-[10px] font-bold uppercase tracking-wider rounded-full border border-zinc-200">Philosophy Coder</span>
+            <span className="inline-flex items-center px-3 py-1 bg-zinc-100 text-zinc-700 text-[10px] font-bold uppercase tracking-wider rounded-full border border-zinc-200">Keahlian Catur</span>
+            <span className="inline-flex items-center px-3 py-1 bg-zinc-100 text-zinc-700 text-[10px] font-bold uppercase tracking-wider rounded-full border border-zinc-200">Keamanan Siber</span>
+            <span className="inline-flex items-center px-3 py-1 bg-zinc-100 text-zinc-700 text-[10px] font-bold uppercase tracking-wider rounded-full border border-zinc-200">Programmer Filosofis</span>
           </div>
         </motion.section>
 
@@ -197,14 +197,14 @@ export default function App() {
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                    <span className="text-[13px] font-medium text-zinc-600">Italian Game</span>
+                    <span className="text-[13px] font-medium text-zinc-600">Bukaan Italia</span>
                   </div>
                   <span className="text-[13px] font-bold text-emerald-600">80% WR</span>
                 </div>
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
-                    <span className="text-[13px] font-medium text-zinc-600">French Defense</span>
+                    <span className="text-[13px] font-medium text-zinc-600">Pertahanan Perancis</span>
                   </div>
                   <span className="text-[13px] font-bold text-emerald-600">80% WR</span>
                 </div>
@@ -242,7 +242,7 @@ export default function App() {
         <section className="mb-12">
           <div className="flex items-center gap-3 mb-5 px-1">
             <div className="w-8 h-[1px] bg-zinc-200" />
-            <h2 className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-zinc-400">Interactive Bio</h2>
+            <h2 className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-zinc-400">Bio Interaktif</h2>
           </div>
           <PortfolioTerminal />
         </section>
@@ -250,7 +250,7 @@ export default function App() {
         {/* Skills Section - Minimalist */}
         <section className="mb-12">
           <div className="flex items-center gap-3 mb-6 px-1 text-right justify-end">
-            <h2 className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-zinc-400">Expertise</h2>
+            <h2 className="text-[10px] font-extrabold uppercase tracking-[0.2em] text-zinc-400">Keahlian Utama</h2>
             <div className="w-8 h-[1px] bg-zinc-200" />
           </div>
           <div className="grid grid-cols-2 gap-3">
@@ -292,7 +292,7 @@ export default function App() {
           </p>
           <div className="inline-block px-3 py-1 rounded-full bg-zinc-50 border border-zinc-100">
             <p className="text-[8px] text-zinc-400 font-bold uppercase tracking-widest leading-none">
-              Built for the Great Science in America
+              Dibuat untuk Masa Depan Ilmu Pengetahuan di Amerika
             </p>
           </div>
         </footer>
